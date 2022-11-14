@@ -417,6 +417,7 @@ body {
 
 .net-item {
   border-radius: 50%;
+
   transition: background-color 250ms var(--timing-function);
 }
 
@@ -427,7 +428,6 @@ body {
 .net-link:focus {
   fill: var(--main-fon-color);
   background-color: var(--accent-color);
-  border-radius: 50%;
 }
 
 .net-link {
@@ -439,7 +439,7 @@ body {
 
   font-size: 0px;
   padding: 0;
-  border: none;
+  border-radius: 50%;
   fill: var(--icon-color);
 
   transition: fill 250ms var(--timing-function);
